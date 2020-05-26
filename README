@@ -1,0 +1,15 @@
+Description:
+
+  400 byte hostname utility in SunOS / Solaris SPARC assembly.
+
+License:
+
+  MIT License
+  Copyright (c) 2006 Michael Ortmann
+
+Website:
+
+  https://gitlab.com/mortmann/hostname
+
+Enjoy,
+Michael
