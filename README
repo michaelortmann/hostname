@@ -1,11 +1,26 @@
 Description:
 
-  400 byte hostname utility in SunOS / Solaris SPARC assembly.
+  144 byte hostname utility in SunOS / Solaris SPARC assembly.
+
+Example:
+
+  $ uname -a
+  SunOS isis 5.9 Generic_118558-34 sun4m sparc SUNW,SPARCstation-5
+
+  $ ./hostname
+  isis
+
+  $ truss ./hostname
+  execve("./hostname", 0xEFFFFE2C, 0xEFFFFE34)  argc = 1
+  sysinfo(SI_HOSTNAME, "isis", 257)               = 5
+  isis
+  write(1, " i s i s\n", 5)                       = 5
+  _exit(0)
 
 License:
 
   MIT License
-  Copyright (c) 2006 Michael Ortmann
+  Copyright (c) 2006-2024 Michael Ortmann
 
 Website:
 
