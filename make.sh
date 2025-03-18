@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2006-2024 Michael Ortmann
+# Copyright (c) 2006-2025 Michael Ortmann
 
 # use as and ld from gnu binutils
 # tested with binutils-2.17 under SunOS
